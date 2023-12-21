@@ -1,5 +1,7 @@
 import java.util.Scanner;
 import javax.swing.JOptionPane;
+
+import java.util.ArrayList;
 import java.util.Random;
 
 public class main {
@@ -243,6 +245,56 @@ public class main {
 		// Integer c = 123;
 		// Double d = 3.14;
 		// String e = "Bro";
-
+		
+		
+//		//ArrayList = a resignable array.
+//		//			  Elements can be added and removed after complication phase
+//		//			  Store reference data types
+//		ArrayList<String> food = new Arraylist<String>();
+//		
+//		food.add("pizza");
+//		food.add("burger");
+//		food.add("hotdog");
+//		
+//		food.set(0, "sushi"); //set array
+//		food.remove(2); //remove array
+//		food.clear(); //clear array
+//		
+//		for(int i=0; i<food.size() ;i++) {
+//			System.out.println(food.get(i));
+//		}
+		
+		
+//		//2D Arraylist = a dynamic list of lists
+//		// You can change the size of these lists during runtime
+//		
+//		//To define 2D ArrayList
+//		ArrayList<ArrayList<String>> grocerylist = new ArrayList();
+//		
+//		ArrayList<String> bakerylist = new ArrayList();
+//		bakerylist.add("choco_cake");
+//		bakerylist.add("Strawberry_cake");
+//		bakerylist.add("vanila_cake");
+//		
+//		ArrayList<String> producelist = new ArrayList();
+//		producelist.add("tomato");
+//		producelist.add("orange");
+//		producelist.add("apple");
+//		
+//		ArrayList<String> drinklist = new ArrayList();
+//		drinklist.add("water");
+//		drinklist.add("cola");
+//		drinklist.add("coffee");
+//		
+//		//add all 3 arraylist in to the grocerylist
+//		grocerylist.add(bakerylist);
+//		grocerylist.add(producelist);
+//		grocerylist.add(drinklist);
+//		//To call by index to show what you wanna choose the arraylist
+//		System.out.println(grocerylist.get(0).get(0)); //choose bakerylist and inside choose choco_cake
+		
+		
+		//for-each=
+		
 	}
 }
