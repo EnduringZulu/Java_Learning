@@ -311,5 +311,35 @@ public class main {
 //		}
 		
 		
+//		//method = a block of code that is executed whenever it is called upon
+//		String name = "Bro";
+//		int age = 21;
+//		hello(name,age);
+//		int x=2,y=3;
+//		System.out.println("Add: " + add(x,y));
+		
+		
+//		// overload methods = 	methods that share the same name but have different parameters
+//		// 						method name + parameters = method signature
+//		int x = add(1,2);
+//		System.out.println(x);
+//		x = add(1,2,3);
+//		System.out.println(x);
+//		x = add(1,2,3,4);
+//		System.out.println(x);
+		
+	}
+	//method : line313 overload method : line322
+	static void hello(String nam,int age) {
+		System.out.println("Hello "+ nam + "\n" + "I'm " + age + "years old");
+	}
+	static int add(int a, int b) {
+		return a+b;
+	}
+	static int add(int a, int b,int c) {
+		return a+b+c;
+	}
+	static int add(int a, int b, int c, int d) {
+		return a+b+c+d;
 	}
 }
