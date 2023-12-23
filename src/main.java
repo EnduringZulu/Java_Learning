@@ -30,14 +30,14 @@ public class main {
 //		friends--;
 //		System.out.println(friends);
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//This is GUI intro
 //		String name = JOptionPane.showInputDialog("Enter your name");
 //		int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
 //		double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
 //		JOptionPane.showMessageDialog(null,"Hello "+name+"\nYour age is "+ age + "\nYour height is "+height);
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//Math function
 //		double x = 3.14;
 //		double y = -10;
@@ -54,7 +54,7 @@ public class main {
 //		double d = Math.floor(x);
 //		System.out.println(Math.max(x, y));
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//try pythagorus
 //		double x,y,z;
 //		Scanner scanner = new Scanner(System.in);
@@ -65,7 +65,7 @@ public class main {
 //		System.out.println("THe result is " + z);
 //		scanner.close();
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//random function
 //		Random random = new Random();
 //		
@@ -74,7 +74,7 @@ public class main {
 //		boolean z = random.nextBoolean();
 //		System.out.println(z);
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//if-else statement
 //		int age=60;
 //		if(age>=65) {
@@ -90,7 +90,7 @@ public class main {
 //			System.out.println("You are not an adult!");
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 		//switch statement
 //		String day = "Friday";
 //		switch(day) {
@@ -106,7 +106,7 @@ public class main {
 //			
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 		/*
 		 logical operators
 		 && = and
@@ -125,7 +125,7 @@ public class main {
 //			System.out.println("You are still playing the game *pew pew");
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 		//while loop
 //		while(1==1) {
 //			System.out.println("Help. I'm stuck in loop!!!");
@@ -137,13 +137,13 @@ public class main {
 //		}
 //		System.out.println("Hello " + name);
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//for loop
 //		for(int i=0;i<20;i++) {
 //			System.out.println("Hi");
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 		//nested loop
 //		Scanner scanner = new Scanner(System.in);
 //		System.out.println("Input size");
@@ -162,7 +162,7 @@ public class main {
 //			System.out.println();
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//array
 //		String[] cars = {"Camero","Corvette","Tesla"};
 //		//re-assigned
@@ -178,7 +178,7 @@ public class main {
 //			System.out.println(Item[i]);
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 		//2D-array
 //		String[][] cars = new String[2][2];
 //		Scanner scanner = new Scanner(System.in);
@@ -197,7 +197,7 @@ public class main {
 //			}
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//String Methods
 //		//String = a reference data type that can store one or more characters
 //		//		   reference a data types have access to useful methods
@@ -226,7 +226,7 @@ public class main {
 //		 */
 //		String result10 = name.replace('o', 'a');
 		
-		
+//------------------------------------------------------------------------------------------------------
 		// //Wrapper classes = provides a way to use primitive data types as reference data types
 		// 					//reference data types contain useful methods
 		// 					//can be used with collections (ex.ArrayList)
@@ -246,7 +246,7 @@ public class main {
 		// Double d = 3.14;
 		// String e = "Bro";
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//ArrayList = a resignable array.
 //		//			  Elements can be added and removed after complication phase
 //		//			  Store reference data types
@@ -264,7 +264,7 @@ public class main {
 //			System.out.println(food.get(i));
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//2D Arraylist = a dynamic list of lists
 //		// You can change the size of these lists during runtime
 //		
@@ -293,7 +293,7 @@ public class main {
 //		//To call by index to show what you wanna choose the arraylist
 //		System.out.println(grocerylist.get(0).get(0)); //choose bakerylist and inside choose choco_cake
 		
-		
+//------------------------------------------------------------------------------------------------------
 		//for-each =	traversing technique to iterate through the elements in an array/collection
 		//				less steps, more readable
 		//				less flexible
@@ -310,7 +310,7 @@ public class main {
 //			System.out.println(i);
 //		}
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		//method = a block of code that is executed whenever it is called upon
 //		String name = "Bro";
 //		int age = 21;
@@ -318,7 +318,7 @@ public class main {
 //		int x=2,y=3;
 //		System.out.println("Add: " + add(x,y));
 		
-		
+//------------------------------------------------------------------------------------------------------
 //		// overload methods = 	methods that share the same name but have different parameters
 //		// 						method name + parameters = method signature
 //		int x = add(1,2);
@@ -327,6 +327,9 @@ public class main {
 //		System.out.println(x);
 //		x = add(1,2,3,4);
 //		System.out.println(x);
+		
+//------------------------------------------------------------------------------------------------------
+		//printf
 		
 	}
 	//method : line313 overload method : line322
