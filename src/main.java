@@ -329,8 +329,40 @@ public class main {
 //		System.out.println(x);
 		
 //------------------------------------------------------------------------------------------------------
-		//printf
+//		//printf =	an optional method to control, format, and display text to the connsole window
+//		//			two arguments = format string + (object/variable/value)
+//		//			% [flags] [precision] [width] [conversion-character]
+//		System.out.printf("This is a format string %d\n",123);
+//		boolean mybool = true;
+//		char myChar = '@';
+//		String mystring = "Bro";;
+//		int myInt = 50;
+//		double myDouble = 1000;
+//		
+//		System.out.printf("%b\n",mybool);
+//		System.out.printf("%c\n",myChar);
+//		System.out.printf("%s\n",mystring);
+//		System.out.printf("%d\n",myInt);
+//		System.out.printf("%f\n",myDouble);
+//		//%[num]s , num is width
+//		//minimum number of characters to be written as output
+//		System.out.printf("%5s\n",mystring);
+//		System.out.println("Hello a"+mystring);
+//		//decimal
+//		System.out.printf("This is double %.2f\n",myDouble);
+//		//plus sign = output plus or minus sign for a numeric value
+//		System.out.printf("This is double(plus sign) %+.2f\n",myDouble);
+//		// , : comma grouping separator if num > 1000
+//		System.out.printf("This is double(plus sign) %,2f\n",myDouble);
 		
+//------------------------------------------------------------------------------------------------------
+		//final keyword
+		//if we use final, it will no longer updated the variable
+		final double pi = 3.14159;
+		//pi = 4; this will not happen cause of final cannot be assigned
+		
+//------------------------------------------------------------------------------------------------------
+		//OOP
 	}
 	//method : line313 overload method : line322
 	static void hello(String nam,int age) {
