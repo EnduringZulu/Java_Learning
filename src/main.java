@@ -385,6 +385,7 @@ public class main {
 		Human roll = new Human("Roll",67,73);
 		
 		roll.eat();
+		rick.drink();
 	}
 	//method : line313 overload method : line322
 	static void hello(String nam,int age) {
