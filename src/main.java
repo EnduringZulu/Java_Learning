@@ -356,13 +356,29 @@ public class main {
 //		System.out.printf("This is double(plus sign) %,2f\n",myDouble);
 		
 //------------------------------------------------------------------------------------------------------
-		//final keyword
-		//if we use final, it will no longer updated the variable
-		final double pi = 3.14159;
-		//pi = 4; this will not happen cause of final cannot be assigned
+//		//final keyword
+//		//if we use final, it will no longer updated the variable
+//		final double pi = 3.14159;
+//		//pi = 4; this will not happen cause of final cannot be assigned
 		
 //------------------------------------------------------------------------------------------------------
 		//OOP
+		// object = an instance of a class that may contain attributes and methods
+		// example: (phone, desk, computer, coffee cup)
+//		Car myCar1 = new Car();
+//		Car myCar2 = new Car();
+//		System.out.println(myCar1.make);
+//		System.out.println("My model car is " + myCar1.model);
+//		System.out.println();
+//		System.out.println(myCar2.make);
+//		System.out.println("My model car is " + myCar2.model);
+//		
+//		//drive
+//		myCar1.drive();
+//		//brake
+//		myCar1.brake();
+		
+//------------------------------------------------------------------------------------------------------
 	}
 	//method : line313 overload method : line322
 	static void hello(String nam,int age) {
