@@ -379,6 +379,12 @@ public class main {
 //		myCar1.brake();
 		
 //------------------------------------------------------------------------------------------------------
+		//Constructor
+		//Constructor = special method that is called when an object is instantiated (created)
+		Human rick = new Human("Rick",65,70);
+		Human roll = new Human("Roll",67,73);
+		
+		roll.eat();
 	}
 	//method : line313 overload method : line322
 	static void hello(String nam,int age) {
